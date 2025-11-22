@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>C__Test</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>rad_ind_bank.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="rad_ind_bank.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OOP_Rad_Lib">
+      <HintPath>..\OOP_Rad_Lib\bin\Debug\net8.0\OOP_Rad_Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="RadAR_Lib">
+      <HintPath>..\RadAR_Lib\bin\Debug\net8.0\RadAR_Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
